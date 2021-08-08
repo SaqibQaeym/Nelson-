@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+    color: #333333;
+}
+
+/* Main section styles
+########################### */
+
+#id-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+/* Image styles
+############################### */
+
+#img-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 5rem 0;
+}
+
+#img-caption {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+#image {
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+/* Tribute info styles
+#################################### */
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 1.5rem 0;
+}
+
+ul {
+    width: 40%;
+    line-height: 1.8;   
+}
+
+#tribute-link {
+    width: 40%;
+    font-size: 1.1rem;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
+    ul {
+        width: 90%;
+        line-height: 1.4;
+    }
+    #tribute-link {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    ul {
+        width: 70%;
+    }
+    #tribute-link {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    ul {
+        width: 70%;
+    }
+    #tribute-link {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
