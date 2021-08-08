@@ -88,20 +88,20 @@ ul {
 
 @media only screen and (max-width: 1024px) {
     ul {
-        width: 70%;
+        width: 80%;
     }
     #tribute-link {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
 }
 
 @media only screen and (max-width: 1600px) {
     ul {
-        width: 70%;
+        width: 80%;
     }
     #tribute-link {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
 }
