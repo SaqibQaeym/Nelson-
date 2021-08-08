@@ -61,12 +61,12 @@ h1, h3, p {
 }
 
 ul {
-    width: 40%;
+    width: 50%;
     line-height: 1.8;   
 }
 
 #tribute-link {
-    width: 40%;
+    width: 50%;
     font-size: 1.1rem;
     padding-bottom: 3rem;
     margin: 0 auto;
@@ -84,6 +84,9 @@ ul {
         width: 90%;
         margin: 0 auto;
     }
+    #image {
+        width: 85%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -94,6 +97,9 @@ ul {
         width: 80%;
         margin: 0 auto;
     }
+    #image {
+        width: 85%;
+    }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -103,5 +109,8 @@ ul {
     #tribute-link {
         width: 80%;
         margin: 0 auto;
+    }
+    #image {
+        width: 85%;
     }
 }
